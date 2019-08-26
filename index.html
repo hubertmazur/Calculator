@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="utf-8">
     <title>Calculator</title>
@@ -9,13 +10,44 @@
     <meta name="author" content="Hubert Mazur">
 
     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-   
+
 </head>
 
-<body >
+<body class="background-blue">
+    <table>
+        <tr class="row1">
+         <td><button type="special" class="delete">C</button></td>
+         <td colspan="4">  <div class="display">0</div></td>
+        </tr>
+        <tr class="row2">
+                <td> <button type="button" class="seven">7</button></td>
+                <td> <button type="button" class="eight">8</button></td>
+                <td><button type="button" class="nine">9</button></td>
+                <td><button type="button" class="plus">+</button></td>
+        </tr>
+        <tr class="row3">
+              <td><button type="button" class="four">4</button></td>
+                <td><button type="button" class="five">5</button></td>
+                <td> <button type="button" class="six">6</button></td>
+                <td> <button type="button" class="minus">-</button></td>
+        </tr>
+        <tr class="row4">
+                <td> <button type="button" class="one">1</button></td>
+                <td> <button type="button" class="two">2</button></td>
+                <td> <button type="button" class="three">3</button></td>
+                <td><button type="button" class="division ">/</button></td>
+        </tr>
+        <tr class="row5">
+                <td> <button type="button" class="zero">0</button> </td>
+                <td><button type="button" class="dot">.</button></td>
+                <td><button type="button" class="equals">=</button></td>
+                <td><button type="button" class="times ">*</button></td>
+        </tr>
+    </table>
     <script src="scripts\index.js"></script>
 </body>
+
 </html>
