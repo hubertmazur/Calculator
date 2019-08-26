@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+table{
+    border: 10px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px;
+    background-color: blue;
+}
+
+td {
+    box-sizing: border-box;
+    padding: 10px;
+   }
+
+button {
+    font-size:1.5rem; 
+    font-weight: 900;
+    box-sizing: border-box;
+    color: black;
+    background-color: red;
+    height: 60px;
+    width: 60px;
+    border:2px;
+    border-style: solid;
+    
+}
+
+div {
+    min-width: 200px;
+    background-color: lightblue;
+    font-weight: 900;
+    height: 60px;
+    border: 2px;
+    border-style: solid;
+    color: black;
+    text-align: right;
+    font-size: 1.5rem;
+     padding-top: 25px;
+     padding-right: 5px;
+    
+}
